@@ -2,7 +2,6 @@ function filterEvenNumbers(numbers: number[]){
     let evenNumbers: number[] = [];
     numbers.forEach(element => {
         if(element%2 === 0){
-            console.log(element);
             evenNumbers.push(element);
         }
     });

@@ -31,7 +31,7 @@ class Parrot implements Pet{
     speak(): string {
         let blabla: string = "";
         this.words.forEach(element => {
-            blabla += element;
+            blabla += ", " + element;
         });
         return blabla;
     }
